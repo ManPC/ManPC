@@ -298,19 +298,19 @@ figure {
 }
 
 .social-link.twitter {
-    background-image: url("images/twitter.svg");
+    background-image: url("../images/twitter.svg");
 }
 
 .social-link.facebook {
-    background-image: url("images/facebook.svg");
+    background-image: url("../images/facebook.svg");
 }
 
 .social-link.instagram {
-    background-image: url("images/instagram.svg");
+    background-image: url("../images/instagram.svg");
 }
 
 .social-link.github {
-    background-image: url("D:/DescargasDWO/DW/images/github.svg");
+    background-image: url("../images/github.svg");
     ;
 }
 
@@ -319,7 +319,7 @@ figure {
     border-radius: 5px;
     border-style: solid;
     padding: 10px 20px 10px 25px;
-    background-image: url("images/envelope.svg");
+    background-image: url("../images/envelope.svg");
     background-size: 15px 15px;
     background-repeat: no-repeat;
     background-position-y: center;
