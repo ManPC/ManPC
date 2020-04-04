@@ -251,8 +251,8 @@ figure {
 }
 
 .event {
-    margin: 10px;
-    width: 580px;
+    margin: 1%;
+    width: 48%;
     flex-shrink: 0;
     border-radius: 10px;
     overflow: hidden;
@@ -260,7 +260,7 @@ figure {
 }
 
 .event img {
-    width: 580px;
+    width: 480px;
     height: 200px;
     object-fit: cover;
 }
@@ -414,11 +414,23 @@ figure {
     .project-description {
         font-size: .8em;
     }
+    .event {
+        width: auto;
+        flex-shrink: initial;
+    }
+    .event img {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .project-details {
         font-size: 12px;
+    }
+    .event-details {
+        /*  1em = 16px por defecto */
+        margin: -2em, .5em, .5em;
+        padding: 1em;
     }
 }
 
