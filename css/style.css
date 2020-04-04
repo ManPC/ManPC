@@ -437,6 +437,10 @@ figure {
     .project-description {
         font-size: .8em;
     }
+    .project img {
+        width: auto;
+        height: auto;
+    }
     .event {
         width: auto;
         flex-shrink: initial;
