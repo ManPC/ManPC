@@ -86,6 +86,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hero-image {
@@ -124,6 +125,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .project-details {
@@ -168,6 +170,7 @@ h2 {
     height: 70px;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 ol,
@@ -223,6 +226,7 @@ figure {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer img {
@@ -285,6 +289,7 @@ figure {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .social {}
@@ -343,11 +348,50 @@ figure {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
+    /*     width: 100%;*/
+    flex: 1;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        border: 10px solid green;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        display: block;
+        height: auto;
+    }
+    .header ol {
+        display: block;
+    }
+    .header ol li {
+        height: 50px;
+    }
+    .header a {
+        justify-content: center;
+    }
+    .header .logo {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        border: 10px solid black;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        border: 10px solid orangered;
+    }
 }
