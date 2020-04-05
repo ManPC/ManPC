@@ -363,7 +363,7 @@ figure {
     flex-wrap: inherit;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .container {
         padding: 0 1em;
     }
@@ -389,6 +389,9 @@ figure {
 }
 
 @media screen and (max-width: 767px) {
+    h2 {
+        text-align: center;
+    }
     .header {
         display: block;
         height: auto;
