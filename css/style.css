@@ -135,6 +135,7 @@ h1 {
     letter-spacing: -.2px;
     color: white;
     margin: 0;
+    width: 50%;
     /*margin: 100px 500px 700px 30px;*/
     /*text-transform: uppercase;*/
     /*text-decoration: underline;*/
@@ -511,7 +512,7 @@ figure {
     }
     h2 {
         font-size: 1.2em;
-        margin: .5em, 0;
+        margin: 0;
     }
     .header {
         display: block;
